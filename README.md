@@ -10,11 +10,14 @@
 
 ---
 
-## 📚 About Uninformed Search Algorithms
+## 📚 About Search Algorithms
 
-Uninformed search algorithms (also called blind search algorithms) explore a problem space without any additional information about the goal's location. They systematically traverse the search space to find a solution but do not use heuristics or domain-specific knowledge.
+Search algorithms explore a problem space to find a path from a start state to a goal state. They are divided into two main types: uninformed (blind) and informed (heuristic) search algorithms.
 
-### Implemented algorithms:
+### Uninformed Search Algorithms
+Uninformed search algorithms explore the search space without any knowledge about the goal beyond the problem definition. They do not use heuristics.
+
+Implemented algorithms:
 
 - **Depth-First Search (DFS)**  
   Explores as far as possible along one branch before backtracking. It's memory-efficient but may not find the optimal solution.
@@ -22,14 +25,21 @@ Uninformed search algorithms (also called blind search algorithms) explore a pro
 - **Breadth-First Search (BFS)**  
   Explores all the nodes at the current depth level before moving on to the next. It guarantees the shortest path in terms of steps when step costs are equal.
 
+### Informed Search Algorithms
+Informed search algorithms use heuristics to guide the search, aiming to reach the goal faster and more efficiently.
+
+Implemented algorithms:
 - **Greedy Best-First Search (GBFS)**
   Explores the nodes that are closest to the goal based on a heuristic function. It's memory-efficient but may not find the optimal solution.
+- **A Star Search**
+Combines the path cost and heuristic to find the lowest total estimated cost to the goal. Guarantees optimality if the heuristic is admissible.
 
 These algorithms are commonly used in:
 - Maze solving
 - Puzzle solving
 - Simple games
 - Decision tree exploration
+- Route planning in maps or navigation systems
 
 ---
 
