@@ -1,11 +1,11 @@
-<h1 align="center">🔍 Uninformed Search Algorithms Repository</h1>
+<h1 align="center">🔍 Search Algorithms Repository</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.8.5-blue" alt="Python 3.8.5">
 </p>
 
 <p>
-  This repository contains implementations of uninformed search algorithms in Python, developed as part of my studies in Artificial Intelligence.
+  This repository contains implementations of search algorithms in Python, developed as part of my studies in Artificial Intelligence.
 </p>
 
 ---
