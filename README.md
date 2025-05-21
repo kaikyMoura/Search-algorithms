@@ -22,6 +22,9 @@ Uninformed search algorithms (also called blind search algorithms) explore a pro
 - **Breadth-First Search (BFS)**  
   Explores all the nodes at the current depth level before moving on to the next. It guarantees the shortest path in terms of steps when step costs are equal.
 
+- **Greedy Best-First Search (GBFS)**
+  Explores the nodes that are closest to the goal based on a heuristic function. It's memory-efficient but may not find the optimal solution.
+
 These algorithms are commonly used in:
 - Maze solving
 - Puzzle solving
@@ -45,10 +48,21 @@ git clone https://github.com/kaikyMoura/UninformedSearch-algorithms.git
 cd UninformedSearch-algorithms
 ```
 
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
 Then run one of the scripts, for example:
 ```bash
 python maze.py maze1.tsx
 ```
+
+The script will read the maze from the file and solve it using the specified uninformed search algorithm.
+
+> ⚠️ **Important**
+> </br> To change algorithm, modify the `method` variable in the end of the script.
 
 ---
 
